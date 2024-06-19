@@ -1,0 +1,262 @@
+
+@media (max-width:767px) {
+    header::before{
+        background-size: 50%;
+    }
+    .navbar-toggler:active header::before{
+        background-size: 100%;
+        opacity: 1;
+    }
+    .nav-link{
+        color: #0961b1;
+    }
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-item button {
+      
+        background: #0961b1;
+        margin-top: 10px;
+    }
+    .banner_pic {
+        display: none;
+    }
+    .banner_content {
+        padding: 0;
+        text-align: center;
+    }
+    .banner_content h1 {
+        font-size: 38px;
+   
+    }
+    .lives_section {
+        background-size: contain;
+    }
+    .employee_pic {
+        width: 77%;
+        margin: auto;
+    }
+    .live h1 {
+        font-size: 38px;
+    }
+    .live p {
+       
+        font-size: 16px;
+       
+    }
+    .heading h1 {
+        font-size: 36px;
+    }
+    .man_pic {
+        width: 80%;
+        margin-left: auto;
+    }
+    .number_part {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .service_part ul {
+        padding: 0 0 0 40%;
+    }
+    .service_part h3 {
+        text-align: center;
+    }
+    .service_img {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .service_part {
+        padding: 10px 0;
+        height: 395px;
+        margin-bottom: 30px;
+    }
+    .accordion-item:first-of-type {
+        width: 95%;
+    }
+    .accordion-item:not(:first-of-type) {
+        width: 95%;
+    }
+    .footer_content h1 {
+        display: none;
+    }
+    .footer_content p {
+        display: none;
+    }
+    .footer_content button {
+        display: none;
+    }
+    footer {
+        background-position: bottom;
+        background-size: 84%;
+        background-repeat: no-repeat;
+        margin-top: 0;
+    }
+
+    .logo_pic {
+        display: none;
+    }
+    .footer_content ul {
+        padding: 0;
+        margin-bottom: 24%;
+    }
+    .footer_pic {
+        position: absolute;
+        top: 26%;
+        width: 45%;
+        right: 33%;
+    }
+    .top_left button {
+        background: transparent;
+        padding: 9px 11px;
+        border: 1px solid #FFf;
+        border-radius: 6px;
+        margin-left: 25px;
+        margin-right: 20px;
+    }
+    .top_left {
+        justify-content: end;
+   
+    }
+    .bottom_right {
+        text-align: center;
+    }
+    .bottom_left h6 {
+        font-size: 12px;
+        text-align: center;
+        margin-right: 0;
+    }
+}
+
+@media(max-width:575px){
+    header::before{
+        background-size: 53%;
+    
+    }
+    .navbar-toggler:active header::before{
+        background-size: 100%;
+        opacity: 1;
+    }
+    .nav-link{
+        color: #0961b1;
+    }
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-item button {
+      
+        background: #0961b1;
+        margin-top: 10px;
+    }
+    .banner_pic {
+        display: none;
+    }
+    .banner_content {
+        padding: 0;
+        text-align: center;
+    }
+    .banner_content h1 {
+        font-size: 38px;
+   
+    }
+    .lives_section {
+        background-size: contain;
+    }
+    .employee_pic {
+        width: 77%;
+        margin: auto;
+    }
+    .live h1 {
+        font-size: 38px;
+    }
+    .live p {
+       
+        font-size: 16px;
+       
+    }
+    .heading h1 {
+        font-size: 36px;
+    }
+    .man_pic {
+        width: 80%;
+        margin-left: auto;
+    }
+    .number_part {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .service_part ul {
+        padding: 0 0 0 40%;
+    }
+    .service_part h3 {
+        text-align: center;
+    }
+    .service_img {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .service_part {
+        padding: 10px 0;
+        height: 395px;
+        margin-bottom: 30px;
+    }
+    .accordion-item:first-of-type {
+        width: 85%;
+    }
+    .accordion-item:not(:first-of-type) {
+        width: 85%;
+    }
+    .footer_content h1 {
+        display: none;
+    }
+    .footer_content p {
+        display: none;
+    }
+    .footer_content button {
+        display: none;
+    }
+    footer {
+        background-position: bottom;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 0;
+    }
+
+    .logo_pic {
+        display: none;
+    }
+    .footer_content ul {
+        padding: 0;
+    }
+    .footer_pic {
+        position: absolute;
+        top: 30%;
+        width: 58%;
+        right: 26%;
+    }
+    .top_left button {
+        background: transparent;
+        padding: 9px 11px;
+        border: 1px solid #FFf;
+        border-radius: 6px;
+        margin-left: 25px;
+        margin-right: 20px;
+    }
+    .top_left {
+        justify-content: end;
+   
+    }
+    .bottom_right {
+        text-align: center;
+    }
+    .bottom_left h6 {
+        font-size: 12px;
+        text-align: center;
+        margin-right: 0;
+    }
+}
