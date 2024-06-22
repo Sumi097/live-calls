@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> lives calls</title>
+    <title> live calls</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="js/owl.carousel.min.css">
+   <link rel="stylesheet" href="js/owl.theme.default.min.css">
     <!-- font css  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +14,7 @@
     <!-- style css -->
      <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="css/media.css">
+     <link rel="stylesheet" href="css/animate.css">
   </head>
   <body>
    <!-- header part start  -->
@@ -23,7 +26,7 @@
                 <div class="container-fluid">
                   <a class="navbar-brand logo" href="#"><img src="image/logo.png" class="img-fluid" alt=""></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-icon"><i class="fa-solid fa-bars" style="color: #083aaf;"></i></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -59,7 +62,7 @@
         </div>
         </div>
         <div class="col-md-6">
-            <div class="banner_pic">
+            <div class="banner_pic wow fadeInRight">
                 <img src="image/banner.png" class="img-fluid" alt="">
             </div>
         </div>
@@ -74,7 +77,7 @@
     <div class="row justify-content-between align-items-center">
 
   <div class="col-md-5">
-<div class="employee_pic">
+<div class="employee_pic  wow slideInLeft">
 <img src="image/emp.png" class="img-fluid" alt="">
 </div>
    </div>
@@ -159,7 +162,7 @@
 
       <div class="row justify-content-between align-items-center">
 
-        <div class="col-md-6">
+        <div class="col-md-6 ">
             <div class="information">
               <div class="start_part">
                     <div class="box">
@@ -181,7 +184,7 @@
             </div>
         </div>
         <div class="col-md-5">
-          <div class="man_pic">
+          <div class="man_pic wow fadeInRight">
             <img src="image/man.png" class="img-fluid" alt="">
           </div>
         </div>
@@ -430,7 +433,7 @@
         </div>
         </div>
         <div class="col-md-6">
-            <div class="footer_pic">
+            <div class="footer_pic wow fadeInRight">
                 <img src="image/LANDING_PAGE-Recovered.png" class="img-fluid" alt="">
             </div>
         </div>
@@ -471,8 +474,13 @@
 
   </div>
 </footer>
-
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/a8290e1cc5.js" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+      </script>
   </body>
 </html>
